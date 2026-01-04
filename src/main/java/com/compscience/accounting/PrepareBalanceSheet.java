@@ -22,8 +22,8 @@ import org.slf4j.LoggerFactory;
 public class PrepareBalanceSheet {
 
 	public static final org.slf4j.Logger logger = LoggerFactory.getLogger(PrepareBalanceSheet.class);
-	static final String accountsFile = "G:/Other computers/valis-pc/work/Techzant/2023/business/Technizant-2023.xlsx";
-	static final String finalReport = "G:/Other computers/valis-pc/work/Techzant/2023/business/Technizant-2023-BalanceSheet.xls";
+	static final String accountsFile = "G:/Other computers/valis-pc/work/Techzant/2025/Technizant-2025.xlsx";
+	static final String finalReport = "G:/Other computers/valis-pc/work/Techzant/2025/Technizant-2025-BalanceSheet.xls";
 	static XSSFWorkbook wb;
 	static HSSFWorkbook reportWb;
 	static Map expensesCategoryMap = new HashMap();
